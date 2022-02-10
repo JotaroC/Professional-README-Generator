@@ -3,7 +3,7 @@
 function generateREADME(data) {
     return `
 # ${data.title}
-![License](https://img.shields.io/badge/License-${data.license}-blue.svg)]
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
 
 ## Description
@@ -19,9 +19,9 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [How to Contribute](#contribution)
-- [Tests](#test)
-- [Questions](#email)
+- [Contribute](#contribute)
+- [Tests](#tests)
+- [Questions](#questions)
 - [License](#license)
 
 
@@ -34,16 +34,16 @@ ${data.installation}
 ${data.usage}
 
 
-## How to Contribute
+## Contribute
 
 Contributions, issues and feature requests are welcome.
-Feel free to check [issues page]${data.contribution} if you want to contribute.
+Feel free to check [issues page](${data.contribution}) if you want to contribute.
 
 
 ## Tests
 
 ${data.test}
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
 
 
 ## Questions
