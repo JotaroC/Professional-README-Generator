@@ -29,6 +29,26 @@ const promptUser = () => {
         name: 'description',
         message: 'Please enter the description of this project.',
       },
+      {
+        type: 'input',
+        name: 'installation',
+        message: 'Please enter the Installation information.',
+      },
+      {
+        type: 'input',
+        name: 'usage',
+        message: 'Please enter the Usage information.',
+      },
+      {
+        type: 'input',
+        name: 'credits',
+        message: 'Please enter the credits information.',
+      },
+      {
+        type: 'input',
+        name: 'license',
+        message: 'Please enter the license information.',
+      },
     ]);
 };
 
