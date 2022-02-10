@@ -40,11 +40,6 @@ const promptUser = () => {
         message: 'Please enter the Usage information.',
       },
       {
-        type: 'input',
-        name: 'contribution',
-        message: 'Please enter the contribution information.',
-      },
-      {
         type: 'list',
         name: 'license',
         message: 'Please select the license.',
@@ -54,6 +49,11 @@ const promptUser = () => {
         type: 'input',
         name: 'github',
         message: 'Please enter your github username',
+      },
+      {
+        type: 'input',
+        name: 'contribution',
+        message: 'Please enter the contribution information.',
       },
       {
         type: 'input',

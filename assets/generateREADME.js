@@ -19,6 +19,7 @@ function generateREADME(data) {
 # ${data.title}
 ![License](https://img.shields.io/badge/License-${data.license}-blue.svg)]
 
+
 ## Description
 
 ${data.description}
@@ -27,6 +28,7 @@ ${data.description}
 - What problem does it solve?
 - What did you learn?
 
+
 ## Table of Contents 
 
 - [Installation](#installation)
@@ -34,13 +36,16 @@ ${data.description}
 - [Credits](#credits)
 - [License](#license)
 
+
 ## Installation
 
 ${data.installation}
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
+
 ## Usage
 ${data.usage}
+
 
 ## Credits
 
@@ -51,23 +56,28 @@ If you used any third-party assets that require attribution, list the creators w
 
 If you followed tutorials, include links to those here as well.
 
-## License
-
-Copyright© 2022 ${data.github}.
-This project is ${data.license} licensed.
 
 ## How to Contribute
 
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
+Contributions, issues and feature requests are welcome.
+Feel free to check [issues page]${data.contribution} if you want to contribute.
+
 
 ## Tests
 
 ${data.test}
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
 
+
 ## Questions
 
 ${data.questions}
+
+
+## License
+
+Copyright© 2022 ${data.github}.
+This project is ${data.license} licensed.
     `
 }
 
