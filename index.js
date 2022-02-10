@@ -41,13 +41,24 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'credits',
-        message: 'Please enter the credits information.',
+        name: 'contribution',
+        message: 'Please enter the contribution information.',
+      },
+      {
+        type: 'list',
+        name: 'license',
+        message: 'Please select the license.',
+        choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'The MIT License']
       },
       {
         type: 'input',
-        name: 'license',
-        message: 'Please enter the license information.',
+        name: 'test',
+        message: 'Please enter the Test information.',
+      },
+      {
+        type: 'input',
+        name: 'questions',
+        message: 'Please enter the Question information.',
       },
     ]);
 };
