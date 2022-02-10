@@ -15,3 +15,29 @@
 // THEN I am taken to the corresponding section of the README
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generator = require('./assets/generateREADME');
+
+const promptUser = () => {
+    return inquirer.prompt([
+      {
+        type: 'input',
+        name: 'title',
+        message: 'What is your project title?',
+      },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'Please enter the description of this project.',
+      },
+    ]);
+};
+
+const init = () => {
+    promptUser()
+      // Use writeFileSync method to use promises instead of a callback function
+      .then((data) => fs.writeFileSync('README.md', generator(data)))
+      .then(() => console.log('Successfully wrote to index.html'))
+      .catch((err) => console.error(err));
+  };
+  
+init();
