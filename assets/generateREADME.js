@@ -17,6 +17,7 @@
 function generateREADME(data) {
     return `
 # ${data.title}
+![License](https://img.shields.io/badge/License-${data.license}-blue.svg)]
 
 ## Description
 
@@ -52,7 +53,8 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-${data.license}
+Copyright© 2022 ${data.github}.
+This project is ${data.license} licensed.
 
 ## How to Contribute
 

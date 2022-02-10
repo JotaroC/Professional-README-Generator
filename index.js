@@ -48,7 +48,12 @@ const promptUser = () => {
         type: 'list',
         name: 'license',
         message: 'Please select the license.',
-        choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'The MIT License']
+        choices: ['Apache_2.0', 'Boost_1.0', 'MIT', 'GPL']
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your github username',
       },
       {
         type: 'input',
