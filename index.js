@@ -47,23 +47,23 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'github',
-        message: 'Please enter your github username',
-      },
-      {
-        type: 'input',
         name: 'contribution',
         message: 'Please enter the contribution information.',
       },
       {
         type: 'input',
-        name: 'test',
-        message: 'Please enter the Test information.',
+        name: 'github',
+        message: 'Please enter your github username',
       },
       {
         type: 'input',
-        name: 'questions',
-        message: 'Please enter the Question information.',
+        name: 'email',
+        message: 'Please enter your Email',
+      },
+      {
+        type: 'input',
+        name: 'test',
+        message: 'Please enter the Test information.',
       },
     ]);
 };
