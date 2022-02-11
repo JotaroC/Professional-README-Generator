@@ -33,7 +33,7 @@ When creating an open source project on GitHub, it’s important to have a high-
 - After answer all the questions, a README.md file will be generated
 
 The following image is the sceenshot of application's appearance:
-
+- [sample README](./assets/README.md)
 ![screen shot of the website](./assets/screenshot.png)
 
 - [Video Demo](https://user-images.githubusercontent.com/97209241/153524452-e2a119f4-6e58-4b56-9122-2d4c8d639efe.mp4)
