@@ -32,6 +32,11 @@ When creating an open source project on GitHub, it’s important to have a high-
 - Users are prompted for information about their application repository
 - After answer all the questions, a README.md file will be generated
 
+The following image is the sceenshot of application's appearance:
+
+![screen shot of the website](./assets/screenshot.png)
+
+- [Video Demo](https://calip.io/byIougLA#P89SsjyF)
 
 ## Contribute
 
