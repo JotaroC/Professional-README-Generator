@@ -1,15 +1,11 @@
 
-# Good me 
-![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+# README generator
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 
 ## Description
 
-nice
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+this is a reame generator
 
 
 ## Table of Contents 
@@ -24,17 +20,17 @@ nice
 
 ## Installation
 
-no need
+make sure run this app under node.js
 
 
 ## Usage
-look me
+install npm
 
 
 ## Contribute
 
 Contributions, issues and feature requests are welcome.
-Feel free to check [issues page](nothing) if you want to contribute.
+Feel free to check [issues page](checkout my github page) if you want to contribute.
 
 
 ## Tests
@@ -46,12 +42,12 @@ n/a
 ## Questions
 
 Free feel to approach me if you have any further questions or anything want to discuss.
-- checkout my [GitHub profile](https://github.com/haha)
-- Contact me via [Email](mailto:cxz000)
+- checkout my [GitHub profile](https://github.com/JotaroC)
+- Contact me via [Email](mailto:email@gmail.com)
 
 
 ## License
 
-Copyright© 2022 haha.
-This project is Apache_2.0 licensed.
+Copyright© 2022 JotaroC.
+This project is MIT licensed.
     
