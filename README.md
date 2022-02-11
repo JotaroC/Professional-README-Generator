@@ -20,11 +20,17 @@ When creating an open source project on GitHub, it’s important to have a high-
 
 ## Installation
 
-To use this appplication, first you need to download or clone this repository
+1.To use this appplication, first you need to download or clone this repository<br/>
+2.Run it under the node.js environment. <br/>
+3.you need to set up the application by running ``npm init -y``<br/>
+4.Then install the "inquirer" and "fs"package by ``npm install fs`` and ``npm install inquirer``, or ``npm install`` will include both of them.<br/>
+5.Then you could invoke the application by using the following command: ``node index.js``
 
 
 ## Usage
-n/a
+- run the application by enter ``node index.js``
+- Users are prompted for information about their application repository
+- After answer all the questions, a README.md file will be generated
 
 
 ## Contribute
